@@ -9,9 +9,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
 <link href="https://www.blogger.com/static/v1/widgets/1708208307-widget_css_bundle.css" rel="stylesheet" type="text/css"></link>
 <link href="https://www.blogger.com/dyn-css/authorization.css?targetBlogID=3512129179211407069&amp;zx=6265f88e-55c4-47b9-acce-a50b5b7e5649" rel="stylesheet" type="text/css"></link>
-<style id="page-skin-1" type="text/css"><!--
-
---></style>
+<link rel="stylesheet" href="styless.css">
 <script type="text/javascript">
 if (window.jstiming) window.jstiming.load.tick('headEnd');
 </script></head>
@@ -25,17 +23,13 @@ if (window.jstiming) window.jstiming.load.tick('headEnd');
 <div id="player">
 <audio controls="" id="audio" oncontextmenu="return false" ondragstart="return
 false" onselectstart="return false" preload="auto" tabindex="0" type="audio/mpeg">
-<source src="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSdGxvWkluWndrWVU" type="audio/mp3"></source>
+<!--<source src="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSdGxvWkluWndrWVU" type="audio/mp3"></source>
         Hola, tu navegador no está actualizado y no puede mostrar este contenido.
-    </audio>
+    </audio>-->
 </div>
-<ul id="playlist" oncontextmenu="return false" ondragstart="return
+
+<ul id="playlist" class="scrollp" oncontextmenu="return false" ondragstart="return
 false" onselectstart="return false">
-<li class="active"><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSdGxvWkluWndrWVU">Pegasus Fantasy - Mauren </a></li>
-<li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSZHNFVURCc1FXb00">Si tu lo deseas - Cesar Franco</a></li>
-<li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSV3NMSXBzSXExQUk">Dragon Screamer - DA PUMP</a></li>
-<li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSTHVmY3FLSHQ4REk">Sinfonica De Dragon Ball - Desconocido </a></li>
-<li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSU25qaDRLa1NXYVE">We Are!- One Piece </a></li>
 <li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSdGxvWkluWndrWVU">Pegasus Fantasy - Mauren </a></li>
 <li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSZHNFVURCc1FXb00">Si tu lo deseas - Cesar Franco</a></li>
 <li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSV3NMSXBzSXExQUk">Dragon Screamer - DA PUMP</a></li>
@@ -51,14 +45,11 @@ false" onselectstart="return false">
 <li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSV3NMSXBzSXExQUk">Dragon Screamer - DA PUMP</a></li>
 <li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSTHVmY3FLSHQ4REk">Sinfonica De Dragon Ball - Desconocido </a></li>
 <li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSU25qaDRLa1NXYVE">We Are!- One Piece </a></li>
-
-
-
-
-
-
-
-
+<li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSdGxvWkluWndrWVU">Pegasus Fantasy - Mauren </a></li>
+<li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSZHNFVURCc1FXb00">Si tu lo deseas - Cesar Franco</a></li>
+<li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSV3NMSXBzSXExQUk">Dragon Screamer - DA PUMP</a></li>
+<li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSTHVmY3FLSHQ4REk">Sinfonica De Dragon Ball - Desconocido </a></li>
+<li><a href="https://docs.google.com/uc?export=download&id=0B_iYLIn2GEFSU25qaDRLa1NXYVE">We Are!- One Piece </a></li>
 </ul>
 </div>
 <script>
@@ -102,89 +93,7 @@ function run(link, player){
 }
   //]]>
 </script>
-<style>
-    <!--
-    .margin {
-width: 400px;
-margin:0px;
-text-align:left;
-padding:0;
-}
-#playlist, #player {
-width: 400px;
-padding: 20px;
-margin: 0 auto;
-display: block;
-text-align: center;
-}
-#playlist {
-margin: 0 auto 20px auto;
-display: block;
-text-align: center;
-font-size: 12px;
-font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
-font-weight: normal;
-}
-#player {
-padding: 10px 20px;
-background: url(//lh3.googleusercontent.com/-9dx_GmP6Yeg/U06qBO9M4EI/AAAAAAAAFEY/FXrhlltF7xc/s300/bg.png);
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-}
-audio {
-width:300px;
-margin:0 auto;
-display: inline-block
-}
-#player:after {http://paineladm.com/arquivos/1076/logoplayer-1076-20150216121848.gif);
-padding-left: 10px;
 
-
-
-
-}
-#playlist {
-background: #424242;
-border-top: 5px solid #9F111B;
-text-align: left;
-border-bottom-left-radius: 10px;
-border-bottom-right-radius: 10px;
-}
-#playlist li, #playlist ul li {
-background-image: none;
-list-style-type: none;
-padding: 0;
-margin: 0;
-}
-#playlist li a {
-color: #CCC;
-background: #222;
-padding: 7px 5px;
-display: block;
-padding-left: 10px;
-text-decoration: none;
-}
-
-#playlist li a:hover{
-background: #9F111B;
-text-decoration: none;
-}
-#playlist .active a {
-color: #B11623;
-font-style: italic;
-text-decoration: none;
-}
-#playlist .active a:before {
-content: "\25B6";
-color: #CCC;
-font-style: normal;
-padding-right: 8px;
-}
-#playlist .active a:hover {
-color: #222;
-  }
-    -->
-  </style>
      <script language="Javascript" type="text/javascript">
     //<![CDATA[
 
@@ -215,4 +124,4 @@ _WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar
 </html>
 
 
-<!--ERMINA EL CODIGO HMTL5-->
+<!--TERMINA EL CODIGO HMTL5-->
